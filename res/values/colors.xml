@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2008, Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+
+<resources>
+
+  <drawable name="waveform_selected">#8dffff</drawable>
+  <drawable name="waveform_unselected">#106072</drawable>
+  <drawable name="waveform_unselected_bkgnd_overlay">#33000000</drawable>
+  <drawable name="selection_border">#ffffff</drawable>
+  <drawable name="playback_indicator">#ffff66</drawable>
+  <drawable name="grid_line">#ee01a9a9</drawable>
+  <drawable name="timecode">#ddffffdd</drawable>
+  <drawable name="timecode_shadow">#aa000000</drawable>
+
+  <drawable name="type_bkgnd_alarm">#88880000</drawable>
+  <drawable name="type_bkgnd_ringtone">#88008888</drawable>
+  <drawable name="type_bkgnd_notification">#88666600</drawable>
+  <drawable name="type_bkgnd_music">#88000000</drawable>
+  <drawable name="type_bkgnd_unsupported">#88cccccc</drawable>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ffccddff</color>
+    <color name="grey">#ff58616d</color>
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#ff9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="ChattingSenderTextColor">#ff081c52</color>
+    <color name="ConversationVoiceTextColor">#ff339900</color>
+    <color name="navpage">#ffe1e8eb</color>
+    <color name="shake_info_text">#ffa1a1a1</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="chatting_bg_purecolor">#ffcbe5f2</color>
+    <color name="plugin_mail_grey">#ff909090</color>
+    <color name="plugin_readerapp_header_color_news">#ff91cd1a</color>
+    <color name="plugin_readerapp_header_color_weibo">#ff529fff</color>
+</resources>

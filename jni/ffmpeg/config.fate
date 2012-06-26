@@ -1,0 +1,1 @@
+config:arm::generic:linux:gcc 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5):--target-os=linux --enable-neon --enable-asm --arch=arm --enable-cross-compile --enable-armv5te

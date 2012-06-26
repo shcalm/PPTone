@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost 
+	android:id="@android:id/tabhost" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <LinearLayout 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+    <FrameLayout android:id="@android:id/tabcontent"
+         android:layout_width="fill_parent"
+         android:layout_height="0.0dip" 
+         android:layout_weight="1.0" />
+     <TabWidget android:id="@android:id/tabs" 
+	       	 android:visibility="gone"
+	       	 android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_weight="0.0" />
+
+        <LinearLayout 
+        android:layout_gravity="bottom" 
+        android:orientation="horizontal"
+        android:id="@+id/main_tab_group" 
+        android:background="@drawable/mmfooter_bg" 
+        android:paddingTop="2.0dip"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+        
+            <FrameLayout android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/main_layout_addExam" 
+                android:gravity="bottom|center"
+                 android:layout_width="fill_parent" 
+                 android:layout_height="fill_parent">
+                   <RadioButton 
+                    android:id="@+id/main_tab_addExam" 
+                    android:checked="true" 
+                    android:text="热门铃声" 
+                    android:drawableTop="@drawable/tab_address" 
+                    style="@style/MMTabButton" />
+                </LinearLayout>
+                <LinearLayout  android:gravity="top|right|center" 
+                android:paddingRight="10.0dip" android:layout_width="fill_parent"
+                 android:layout_height="fill_parent">
+                    <TextView android:textSize="10.0dip" 
+                    android:text="1" android:textColor="#ffffff" 
+                    android:gravity="center" 
+                    android:id="@+id/main_tab_unread_tv"
+                     android:visibility="invisible" 
+                     android:layout_width="wrap_content" 
+                     android:layout_height="wrap_content" 
+                      />
+                </LinearLayout>
+            </FrameLayout>
+             <FrameLayout android:background="@null"
+              android:layout_width="0.0dip" 
+              android:layout_height="fill_parent" 
+              android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/main_layout_myExam"
+                 android:gravity="bottom|center" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="fill_parent">
+                     <RadioButton android:id="@+id/main_tab_myExam" 
+                     android:text="制作铃声" 
+                     android:drawableTop="@drawable/tab_find_frd" 
+                     style="@style/MMTabButton" />
+                </LinearLayout>
+                <LinearLayout android:gravity="top|right|center" 
+                android:paddingRight="10.0dip" 
+                android:layout_width="fill_parent"
+                 android:layout_height="fill_parent">
+                    <TextView android:textSize="10.0dip" android:textColor="#ffffff" 
+                    android:gravity="center" 
+                    android:id="@+id/main_tab_address"
+                     android:visibility="invisible"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:text="1" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:background="@null" 
+            android:layout_width="0.0dip" 
+            android:layout_height="fill_parent" 
+            android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/main_layout_message"
+                 android:gravity="bottom|center" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="fill_parent">
+                    <RadioButton android:id="@+id/main_tab_message" 
+                    android:text="我的铃声" 
+                    android:drawableTop="@drawable/tab_settings" 
+                    style="@style/MMTabButton" />
+                </LinearLayout>
+                <LinearLayout android:gravity="top|right|center" 
+                android:paddingRight="10.0dip"
+                 android:layout_width="fill_parent" 
+                 android:layout_height="fill_parent">
+                    <TextView android:textSize="12.0dip" 
+                    android:textColor="#ffffff" 
+                    android:gravity="center" 
+                    android:id="@+id/main_tab_new_tv"
+                      android:visibility="invisible" 
+                      android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" android:text="1" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</TabHost>

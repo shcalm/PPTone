@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:paddingTop="100dip"
+	android:background="@color/grey">
+
+		<Button android:id="@+id/importfile" android:layout_width="200dip"
+			android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+			android:text="@string/import_file" android:background="@drawable/btn" />
+
+		<Button android:text="@string/record_file"
+			android:layout_gravity="center_horizontal" android:id="@+id/makenew"
+			android:layout_width="200dip" android:layout_height="wrap_content"
+			android:background="@drawable/btn" android:layout_marginTop="20dip">
+		</Button>
+
+</LinearLayout>
